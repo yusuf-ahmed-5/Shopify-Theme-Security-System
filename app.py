@@ -19,10 +19,10 @@ limiter = Limiter(
 )
 
 # Configuring MySQL connection
-app.config['MYSQL_HOST'] = 'zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
-app.config['MYSQL_USER'] = 'ajrs53ejhmu768yw'
-app.config['MYSQL_PASSWORD'] = 'p39gv878dtjstn3c'
-app.config['MYSQL_DB'] = 'c85mf4temuzagd4z'
+app.config['MYSQL_HOST'] = '--------------------.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_USER'] = '---------------'
+app.config['MYSQL_PASSWORD'] = '--------------'
+app.config['MYSQL_DB'] = '----------------'
 
 # Initialize MySQL
 mysql = MySQL(app)
